@@ -18,7 +18,8 @@ class Config:
     # OpenRouter API
     OPENROUTER_API_KEY: str = os.getenv("OPENROUTER_API_KEY", "")
     # OPENROUTER_MODEL: str = os.getenv("OPENROUTER_MODEL", "arcee-ai/trinity-large-preview:free")
-    OPENROUTER_MODEL: str = os.getenv("OPENROUTER_MODEL", "tngtech/deepseek-r1t-chimera:free")
+    # OPENROUTER_MODEL: str = os.getenv("OPENROUTER_MODEL", "tngtech/deepseek-r1t-chimera:free")
+    OPENROUTER_MODEL: str = os.getenv("OPENROUTER_MODEL", "nvidia/nemotron-3-nano-30b-a3b:free")
     
     
     # Logging
